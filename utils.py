@@ -383,8 +383,8 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'https://dulink.in/shortLink'
-    params = {'token': URL_SHORTNER_WEBSITE_API,
+    url = f'https://dulink.in/'
+    params = {'token': 6426621836b31128ed4785ab66affcdd71d73139,
               'link': link,
               'format': 'json'
               }
